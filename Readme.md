@@ -2,7 +2,7 @@
 
 Reference: [http://docs.phonegap.com/en/2.2.0/cordova_splashscreen_splashscreen.md.html](http://docs.phonegap.com/en/2.2.0/cordova_splashscreen_splashscreen.md.html)
 
-1) Modify res/xml/config.xml to add the following line: <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
+1) Modify res/xml/config.xml to add the following line: `<plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>`
 
 2) Create a new Activity class to override SalesforceDroidGapActivity. Override onCreate and loadUrl methods to initialize splashscreen settings. See SplashScreenDemoActivity for example.
 
