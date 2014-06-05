@@ -16,6 +16,6 @@ public class SplashScreenDemoActivity extends SalesforceDroidGapActivity {
 	
 	@Override
 	public void loadUrl(final String url) {
-		super.loadUrl(url, 3000 /* time for which splash screen should be displayed */ );
+		super.loadUrl(url, 10000 /* time for which splash screen should be displayed */ );
 	}
 }
